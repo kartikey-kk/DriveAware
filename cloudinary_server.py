@@ -5,8 +5,8 @@ import os
 
 app = Flask(__name__)
 
-CLOUD_NAME = 'dclq31q8y'
-UPLOAD_PRESET = 'esp32upload'
+CLOUD_NAME = 'dclq31q8y'        # Your Cloud Name
+UPLOAD_PRESET = 'esp32upload'   # Your unsigned preset name
 CLOUDINARY_URL = f'https://api.cloudinary.com/v1_1/{CLOUD_NAME}/image/upload'
 
 UPLOAD_FOLDER = 'uploads/'
