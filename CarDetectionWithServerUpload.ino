@@ -8,9 +8,9 @@
 
 #define BUZZER_PIN 13
 
-#define WIFI_SSID "kk"
-#define WIFI_PASSWORD "8957872224"
-#define UPLOAD_URL "http://192.168.113.14:5000/upload" // Cloudinary server url (wifi connection of both same)
+#define WIFI_SSID "kk"    // Wifi Username
+#define WIFI_PASSWORD "8957872224"     // Password
+#define UPLOAD_URL "http://192.168.113.14:5000/upload" // Cloudinary server url (wifi connection of both device same)
 
 // Camera pin definitions for AI-Thinker model
 #define PWDN_GPIO_NUM     32
@@ -78,7 +78,7 @@ void upload_task(void *param) {
     UploadData *upload = (UploadData*)param;
 
     if (WiFi.status() == WL_CONNECTED) {
-        const char *host = "192.168.113.14"; // Match this to your PC IP running Flask  // Flask server IP
+        const char *host = "192.168.113.14"; // Match this to your PC IP running Flask  and  Flask server IP
         const int port = 5000;
         const char *path = "/upload";
 
