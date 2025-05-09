@@ -78,3 +78,4 @@ While tailored for **mountainous regions** with sharp curves, poor lighting, and
 - **Kartikey Kumar**
 - **Kirti Sharma**
 > *DriveAware v2 aims to revolutionize smart road infrastructure through intelligent sensing, edge-based processing, and seamless IoT communication — offering a safer, smarter future for every road user.*
+
